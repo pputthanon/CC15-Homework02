@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <title>Profile Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .profile {
+            border: 1px solid grey;
+            width: fit-content;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 1px 1px 20px 5px rgba(150,150,150,0.4);
+        }
+
+        img {
+            width: 200px;
+            height: 260px;
+            border-bottom: 1px solid grey;
+        }
+        main {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            padding: 10%;
+        }
+
+        h4 {
+            padding: 10px;
+    
+        }
+
+        .x {
+            text-align: left;
+            font-size: larger;
+            font-weight: 300;
+        }
+
+        .number p {
+            border: 1px solid red;
+            background-color: red;
+            border-radius: 50%;
+            color: aliceblue;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 0;
+            margin-right: -10px;
+            margin-top: -40px;
+            /* display: flex;
+            justify-content: center; */
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="profile">
+            <div class="x">
+                &#9747;
+            </div>
+            <div class="number">
+                <p>9</p>
+            </div>
+
+            <img src="./human-man-10.svg" alt="profile">
+            <h4>A.Rudiger</h4>
+        </div>
+    </main>
+</body>
+</html>
